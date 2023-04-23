@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   my_app:
-    container_name: "covid19app"
+    container_name: "covid19help"
     build : .
     ports:
       - 8000:8000
